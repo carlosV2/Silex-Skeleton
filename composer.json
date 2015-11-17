@@ -1,0 +1,19 @@
+{
+    "name": "carlosV2/Silex-Behat-Skeleton",
+    "license": "MIT",
+    "type": "project",
+    "description": "Skeleton of Silex and Behat to build application on top of.",
+    "autoload": {
+        "psr-0": {"": ["src/", "features/"], "spec": ""}
+    },
+    "require": {
+        "php": ">=5.5",
+        "silex/silex": "^1.3"
+    },
+    "require-dev": {
+        "behat/behat": "^3.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    }
+}
